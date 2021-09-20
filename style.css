@@ -1,0 +1,65 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #232946;
+  font-family: "Lato", sans-serif;
+}
+
+body .container {
+  background-color: #fffffe;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+  width: auto;
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+body .container .options select {
+  border: 1px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.753);
+  padding: 10px;
+  outline: none;
+  border-radius: 3px;
+}
+
+body .container .result {
+  margin: 10px 0;
+}
+
+body .container .result__list {
+  margin: 0;
+  padding: 0 10px;
+}
+
+body .container .result__list__item {
+  background-color: #b8c1ec;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablas</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="options">
+        <select name="table" id="table">
+          <option value="selected" disabled selected>
+            Quiero saber la tabla del...
+          </option>
+          <option value="one" id="one">1</option>
+          <option value="two" id="two">2</option>
+          <option value="three" id="three">3</option>
+          <option value="four" id="four">4</option>
+          <option value="five" id="five">5</option>
+          <option value="six" id="six">6</option>
+          <option value="seven" id="seven">7</option>
+          <option value="eigth" id="eight">8</option>
+          <option value="nine" id="nine">9</option>
+        </select>
+      </div>
+      <div class="result">
+        <ul class="result__list" id="list"></ul>
+      </div>
+      <p id="text"></p>
+    </main>
+    <script src="/index.js"></script>
+  </body>
+</html>
