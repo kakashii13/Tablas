@@ -6,9 +6,8 @@ function calcular() {
   table.addEventListener("click", () => {
     let value = parseInt(table.options[table.selectedIndex].text);
 
-    if (value.value !== "selected") {
+    if (table.options[table.selectedIndex].value !== "selected") {
       for (let i = 1; i <= 10; i++) {
-        console.log(`${value} * ${i} = ${value * i}`);
         let uList = document.getElementById("list");
         let list = document.createElement("li");
         list.classList.add("result__list__item");
